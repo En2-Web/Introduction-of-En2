@@ -1,0 +1,147 @@
+body{
+  text-align: center;
+  margin: 100px auto;
+  
+  color: #557;
+}
+
+a{
+  color: #557;
+  
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 0.5;
+}
+
+h1{
+  margin-bottom: 0px;
+  font-size: 40px;
+}
+
+h2{
+  margin-top: 150px;
+  margin-bottom: 0px;
+}
+
+.introduction > p{
+  text-align: center;
+  margin: 10px auto;
+
+  width: 650px;
+}
+
+.contents{
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(2, 120px);
+
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.contents p{
+  margin-top: 10px;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(1, 100px);
+
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+
+  grid-gap: 0px 20px;
+}
+
+footer div{
+  width: 120px;
+  height: 50px;
+
+  font-size: 12px;
+}
+
+footer p{
+  margin-top: 8px;
+}
+
+
+
+@media (max-width: 600px){
+  body{
+    margin: 10% auto;
+  }
+  
+  h1{
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+
+    width: 90%;
+    height: 15%;
+
+    font-size: x-large;
+  }
+  
+  h2{
+    margin: 10% auto;
+    margin-bottom: 0px;
+
+    width: 80%;
+
+    font-size: medium;
+  }
+  
+  .introduction > p{
+    text-align: center;
+    margin: 10px auto;
+  
+    width: 85%;
+
+    font-size: small;
+  }
+  
+  .contents{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(2, 15%);
+  
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  
+  .contents p{
+    margin-top: 2px;
+  }
+  
+  footer{
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    grid-template-rows: repeat(1, 5%);
+  
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  
+    grid-gap: 0px 5%;
+  }
+  
+  footer p{
+    margin-top: 2px;
+  }
+}
